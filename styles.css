@@ -144,7 +144,7 @@ body {
  }
 
 
- #nav-list span {
+ #nav-list span.sr-only {
   margin-top: 10px;
   text-align: center;
  }
