@@ -144,7 +144,10 @@ body {
  }
 
 
-
+ #nav-list span {
+  margin-top: 10px;
+  text-align: center;
+ }
 #nav-list {
     margin-top: 10px;
     text-align: center;
