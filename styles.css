@@ -106,6 +106,7 @@ body {
     background-color: #f6b319;
     border-radius: 0;
     border: 0;
+    margin-top: 0;
 }
 
 #logo-img {
@@ -132,9 +133,28 @@ body {
     line-height: .75;
 }
 
+.wrap{
+  position: absolute
+  top :50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.menu{
+  width: 50px;
+  height: 10px;
+  color: #000;
+  margin: 6px 0;
+}
+
 .navbar-brand a:hover,.navbar-brand a:focus {
     text-decoration: none;
 }
+
+.navbar-brand div {
+  width: 35px;
+  height: 5px
+}
+
 .navbar-text { /* Menu */
   text-decoration: bold;
   text-align: center;
@@ -180,7 +200,7 @@ body {
    padding-right: 15px;
 }
 
-#nav div {
+.nav-list div {
   width: 35px;
   height: 5px;
   background-color: black;
