@@ -157,7 +157,7 @@ body {
 
 .navbar-text { /* Menu */
   text-decoration: bold;
-  text-align: center;
+  text-align: start;
   text-shadow: #222;
   position: relative;
   float: right;
