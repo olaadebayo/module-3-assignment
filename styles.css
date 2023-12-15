@@ -174,7 +174,7 @@ body {
 }
 #nav-list a {
     color: #951c49;
-    text-align: center;
+    text-align: start;
 }
 
 #nav-list a :hover {
